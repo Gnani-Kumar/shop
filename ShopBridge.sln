@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge", "ShopBridge\Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "Products\Products.csproj", "{3678C7FD-545B-4569-A990-0CB68BF23BFA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{7A8D80DA-F54F-4371-8702-76719F7CD08B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DataBase", "DataBase\DataBase.sqlproj", "{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,18 @@ Global
 		{3678C7FD-545B-4569-A990-0CB68BF23BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3678C7FD-545B-4569-A990-0CB68BF23BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3678C7FD-545B-4569-A990-0CB68BF23BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA4DEF83-4488-4FF0-BBC2-50EC1B98C303} = {7A8D80DA-F54F-4371-8702-76719F7CD08B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8289018B-D806-4B62-904A-3503F9022C15}
